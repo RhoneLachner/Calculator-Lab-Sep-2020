@@ -25,6 +25,33 @@ addButton.addEventListener('click', () => {
     outputDisplay.textContent = sum;
   
 });
+//TRANSFORM TO SUBTRACT:
+
+const NumberOneSubtract = document.getElementById('numOneSubtract');
+const NumberTwoSubtract = document.getElementById('numTwoSubtract');
+const subtractButton = document.getElementById('subtract-Button');
+const outputDisplaySubtract = document.getElementById('outputSubtract')
+// initialize state
+
+subtractButton.addEventListener('click', () => {
+
+    const valueOneSubtract = NumberOneSubtract.value;
+    const valueTwoSubtract = NumberTwoSubtract.value;
+
+    console.log(valueOneSubtract, valueTwoSubtract);
+
+    const valueOneNumberSubtract = Number(valueOneSubtract);
+    const valueTwoNumberSubtract = Number(valueTwoSubtract);
+    
+    console.log(typeof valueOneNumberSubtract, typeof valueTwoNumberSubtract);
+
+    const sum = valueOneNumberSubtract - valueTwoNumberSubtract;
+    //         - log out the sum
+    console.log(sum);
+
+    outputDisplaySubtract.textContent = sum;
+  
+});
 
 
 //FOR LATER:
