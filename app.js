@@ -81,6 +81,41 @@ multiplyButton.addEventListener('click', () => {
   
 });
 
+//TRANSFORM TO DIVIDE:
+
+const NumberOneDivide = document.getElementById('numOneDivide');
+const NumberTwoDivide = document.getElementById('numTwoDivide');
+const divideButton = document.getElementById('divide-Button');
+const outputDisplayDivide = document.getElementById('outputDivide')
+// initialize state
+
+divideButton.addEventListener('click', () => {
+
+    const valueOneDivide = NumberOneDivide.value;
+    const valueTwoDivide = NumberTwoDivide.value;
+
+    console.log(valueOneDivide, valueTwoDivide);
+
+    const valueOneNumberDivide = Number(valueOneDivide);
+    const valueTwoNumberDivide = Number(valueTwoDivide);
+    
+    console.log(typeof valueOneNumberDivide, typeof valueTwoNumberDivide);
+
+    const sum = valueOneNumberDivide / valueTwoNumberDivide;
+    //         - log out the sum
+    console.log(sum);
+
+    outputDisplayDivide.textContent = sum;
+  
+});
+
+
+
+
+
+
+
+
 //FOR LATER:
 /* 
 const subtractButton = document.getElementById('subtract-Button');
