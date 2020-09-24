@@ -53,6 +53,33 @@ subtractButton.addEventListener('click', () => {
   
 });
 
+//TRANSFORM TO MULTIPLY:
+
+const NumberOneMultiply = document.getElementById('numOneMultiply');
+const NumberTwoMultiply = document.getElementById('numTwoMultiply');
+const multiplyButton = document.getElementById('multiply-Button');
+const outputDisplayMultiply = document.getElementById('outputMultiply')
+// initialize state
+
+multiplyButton.addEventListener('click', () => {
+
+    const valueOneMultiply = NumberOneMultiply.value;
+    const valueTwoMultiply = NumberTwoMultiply.value;
+
+    console.log(valueOneMultiply, valueTwoMultiply);
+
+    const valueOneNumberMultiply = Number(valueOneMultiply);
+    const valueTwoNumberMultiply = Number(valueTwoMultiply);
+    
+    console.log(typeof valueOneNumberMultiply, typeof valueTwoNumberMultiply);
+
+    const sum = valueOneNumberMultiply * valueTwoNumberMultiply;
+    //         - log out the sum
+    console.log(sum);
+
+    outputDisplayMultiply.textContent = sum;
+  
+});
 
 //FOR LATER:
 /* 
