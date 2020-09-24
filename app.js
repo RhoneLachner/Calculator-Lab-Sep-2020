@@ -1,5 +1,7 @@
 // import functions and grab DOM elements
 
+//ADDITION FUNCTIONS!
+
 const NumberOne = document.getElementById('numOne');
 const NumberTwo = document.getElementById('numTwo');
 const addButton = document.getElementById('add-Button');
@@ -25,6 +27,7 @@ addButton.addEventListener('click', () => {
     outputDisplay.textContent = sum;
   
 });
+
 //TRANSFORM TO SUBTRACT:
 
 const NumberOneSubtract = document.getElementById('numOneSubtract');
@@ -111,17 +114,6 @@ divideButton.addEventListener('click', () => {
 
 
 
-
-
-
-
-
-//FOR LATER:
-/* 
-const subtractButton = document.getElementById('subtract-Button');
-const multiplyButton = document.getElementById('multiply-Button');
-const divideButton = document.getElementById('divide-Button');
-*/
 
 
 /* 
