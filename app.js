@@ -5,7 +5,7 @@
 const NumberOne = document.getElementById('numOne');
 const NumberTwo = document.getElementById('numTwo');
 const addButton = document.getElementById('add-Button');
-const outputDisplay = document.getElementById('output')
+const outputDisplay = document.getElementById('output');
 // initialize state
 
 addButton.addEventListener('click', () => {
@@ -33,7 +33,7 @@ addButton.addEventListener('click', () => {
 const NumberOneSubtract = document.getElementById('numOneSubtract');
 const NumberTwoSubtract = document.getElementById('numTwoSubtract');
 const subtractButton = document.getElementById('subtract-Button');
-const outputDisplaySubtract = document.getElementById('outputSubtract')
+const outputDisplaySubtract = document.getElementById('outputSubtract');
 // initialize state
 
 subtractButton.addEventListener('click', () => {
@@ -61,7 +61,7 @@ subtractButton.addEventListener('click', () => {
 const NumberOneMultiply = document.getElementById('numOneMultiply');
 const NumberTwoMultiply = document.getElementById('numTwoMultiply');
 const multiplyButton = document.getElementById('multiply-Button');
-const outputDisplayMultiply = document.getElementById('outputMultiply')
+const outputDisplayMultiply = document.getElementById('outputMultiply');
 // initialize state
 
 multiplyButton.addEventListener('click', () => {
@@ -89,7 +89,7 @@ multiplyButton.addEventListener('click', () => {
 const NumberOneDivide = document.getElementById('numOneDivide');
 const NumberTwoDivide = document.getElementById('numTwoDivide');
 const divideButton = document.getElementById('divide-Button');
-const outputDisplayDivide = document.getElementById('outputDivide')
+const outputDisplayDivide = document.getElementById('outputDivide');
 // initialize state
 
 divideButton.addEventListener('click', () => {
