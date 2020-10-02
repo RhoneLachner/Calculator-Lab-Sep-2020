@@ -4,7 +4,6 @@
 const NumberOne = document.getElementById('numOne');
 const NumberTwo = document.getElementById('numTwo');
 const outputDisplay = document.getElementById('output');
-
 export function addFunction() {
     const valueOne = NumberOne.value;
     const valueTwo = NumberTwo.value;
@@ -22,7 +21,6 @@ export function addFunction() {
 
     outputDisplay.textContent = sum;
 }
-
 //SUBTRACT FUNCTION
 const NumberOneSubtract = document.getElementById('numOneSubtract');
 const NumberTwoSubtract = document.getElementById('numTwoSubtract');
@@ -45,7 +43,6 @@ export function subtractFunction() {
 
     outputDisplaySubtract.textContent = sum;
 }
-
 //MULTIPLY FUNCTION
 const NumberOneMultiply = document.getElementById('numOneMultiply');
 const NumberTwoMultiply = document.getElementById('numTwoMultiply');
@@ -68,7 +65,6 @@ export function multiplyFunction() {
 
     outputDisplayMultiply.textContent = sum;
 }
-
 //DIVIDE FUNCTION
 const NumberOneDivide = document.getElementById('numOneDivide');
 const NumberTwoDivide = document.getElementById('numTwoDivide');

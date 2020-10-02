@@ -5,10 +5,8 @@ import { addFunction } from './math-utils.js';
 import { subtractFunction } from './math-utils.js';
 import { multiplyFunction } from './math-utils.js'; 
 import { divideFunction } from './math-utils.js';
-
 // import { example } from '../example.js';
 const test = QUnit.test;
-
 //ADD TEST
 test('If I add two and three it will return 5', (expect) => {
     const addingInput1 = 2;
@@ -19,7 +17,6 @@ test('If I add two and three it will return 5', (expect) => {
   
     expect.equal(actual, expected);
 }); 
-
 //SUBTRACT TEST
 test('If I subtract three from ten it will return 7', (expect) => {
     const firstNumber = 10;
@@ -30,7 +27,6 @@ test('If I subtract three from ten it will return 7', (expect) => {
   
     expect.equal(actual, expected);
 });
-
 //MULTIPLY TEST
 test('If I multiply three by ten it will return 30', (expect) => {
     const firstNumber = 10;
@@ -41,7 +37,6 @@ test('If I multiply three by ten it will return 30', (expect) => {
 
     expect.equal(actual, expected);
 });
-
 //DIVIDE TEST:
 test('If I subtract six by two it will return 3.', (expect) => {
     const firstNumber = 6;
